@@ -1,0 +1,54 @@
+html, body, header, nav, h1, a, ul, li,
+strong, main, section, img, div, h2, p,
+form, fieldset, label, input, textarea,
+button, article, footer, small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+
+  font: inherit;
+  box-sizing: border-box;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  color: inherit;
+  background: transparent;
+}
+
+
+
+ul {
+  list-style: none;
+}
+
+div {
+  display: inherit;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.normal-link {
+  text-decoration: none;
+  color: rgba(122, 85, 163, 1);
+  cursor: pointer;
+}
+
+.normal-link:hover {
+  text-decoration: underline;
+  color: rgba(173, 84, 21, 0.56)
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+.hide-text {
+  font-family: AdobeBlank;
+}

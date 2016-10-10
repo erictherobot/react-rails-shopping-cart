@@ -1,0 +1,10 @@
+/.bundle
+/db/*.sqlite3
+/log/*
+!/log/.keep
+/tmp
+/config/application.yml
+/config/secrets.rb
+node_modules
+bower_components
+/public/system/*

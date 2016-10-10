@@ -1,0 +1,88 @@
+.cart-item-wrapper {
+  height: auto;
+  vertical-align: bottom;
+}
+
+.cart-item-wrapper > .carousel-card {
+  width: 400px;
+  margin: auto;
+  float: left;
+  padding: 20px;
+}
+
+.cart-index {
+  display: block;
+  position: relative;
+  margin: 100px auto 0px auto;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.cart-index > h2 {
+  display: block;
+  font-size: 24px;
+}
+
+.cart-items {
+  display: block;
+  float: left;
+  min-width: 800px;
+}
+
+.checkout-form {
+  display: block;
+  float: right;
+  width: 300px;
+  margin-left: 20px;
+  height: 400px;
+}
+
+.cart-prev {
+  float: left;
+}
+.cart-prev > img {
+  height: 160px;
+  width: auto;
+}
+
+.product-summary-box {
+  display: block;
+  width: calc(100% - 400px);
+  float: left;
+  text-align: left;
+  padding: 20px 0 0 80px;
+}
+
+.small-stock {
+  display: block;
+  margin: 5px 0 5px 30px;
+}
+
+.small-price {
+  display: block;
+  margin: 5px 0 5px 30px;
+}
+
+.cart-qty-wrap {
+  display: block;
+  position: relative;
+  float: right;
+  height: 200px;
+}
+
+.cart-qty-wrap > .qty-button-wrapper {
+  position: relative;
+  top: 20px;
+  left: -20px;
+  margin: 5px 5px 0 0;
+}
+
+.checkout-form > .cart-wrapper {
+  display: block;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.checkout-form > .cart-wrapper > .cart-button {
+  width: 100%;
+}

@@ -1,0 +1,80 @@
+.direct-route-background {
+  display: block;
+  width: 100%;
+  background: rgba(255, 255, 255, 1)
+}
+
+.direct-disabled {
+  background: rgba(255, 255, 255, 0)
+}
+
+.direct-enabled {
+  display: block;
+  background: rgba(255, 255, 255, 1)
+}
+
+.f-box-inner {
+  display: block;
+  margin: auto;
+  min-width: 350px;
+  max-width: 350px;
+  min-height: 400px;
+  color: black;
+  background: white;
+  margin-top: 50px;
+  padding: 20px;
+  background: #444;
+}
+
+.form-button {
+  display: block;
+  margin: 20px auto;
+  background: #000;
+  color: rgba(255, 255, 255, 1);
+  padding: 10px;
+}
+
+.form-button:active {
+  background: rgba(175, 75, 0, 0.7);
+  box-shadow: 0 0 10px rgba(115, 55, 15, 1);
+}
+
+.sign-header {
+  display: block;
+  text-align: center;
+}
+
+.rt-form {
+  color: rgba(255, 255, 255, 0.88);
+}
+
+
+.rt-form > label {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.rt-form > input {
+  display: block;
+  width: 100%;
+  background: white;
+  color: black;
+  padding: 5px;
+}
+
+.rt-form input:last-of-type {
+  margin-bottom: 20px;
+}
+
+.divider-section {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.form-button {
+  display: block;
+  margin: auto;
+}

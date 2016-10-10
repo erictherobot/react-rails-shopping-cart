@@ -1,0 +1,97 @@
+.product-home {
+  background: #fff;
+}
+
+.desktop-wrapper {
+  width: 1400px;
+  margin: auto;
+}
+
+.featured {
+  position: relative;
+  width: 100%;
+  padding: 50px 20px 0 20px;
+  margin-bottom: 80px;
+
+}
+
+.featured-dept {
+  display: block;
+  font-size: 24px;
+  position: relative;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.featured-dept:hover {
+  color: rgba(122, 85, 163, 1);
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+
+.carousel-viewport {
+  display: inline-block;
+  position: relative;
+  left: 0;
+  max-height: 200px;
+
+  transition: left 1s;
+}
+
+.carousel-card {
+  display: inline-block;
+  text-align: center;
+  min-width: 140px;
+  max-width: 270px;
+  min-height: 200px;
+  max-height: 200px;
+  margin: 0 10px 0 0;
+}
+
+.featured .carousel .carousel-card:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    min-height: inherit;
+}
+
+.feature-link {
+  display: inline-block;
+  height: 100%;
+}
+
+.feature-image {
+  width: auto;
+  height: auto;
+  max-width: 270px;
+  max-height: 200px;
+  vertical-align: middle;
+}
+
+.feature-details-button {
+  display: none;
+}
+
+.arrow-button {
+  display: block;
+  width: 50px;
+  top: 100px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.slide-left {
+  position: absolute;
+  left: 25px;
+}
+
+.slide-right {
+  position: absolute;
+  right: 25px;
+}

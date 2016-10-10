@@ -1,0 +1,24 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: ericdavidsmith
+  pool: 5
+  username:
+  password:
+
+test: &TEST
+  adapter: postgresql
+  encoding: utf8
+  database:
+  pool: 5
+  username:
+  password:
+
+# Heroku Config Stuff
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: d16e3i368j1oh
+  pool: 5
+  username: omytcmryagtzem
+  password: 1qPXpAghm9KJYbahLWwtCnr40U

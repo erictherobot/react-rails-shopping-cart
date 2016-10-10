@@ -1,0 +1,82 @@
+.checkout-landing {
+  min-width: 1000px;
+  max-width: 1200px;
+  margin: 50px auto 0 auto;
+
+}
+
+.order-summary-wrapper {
+  display: block;
+  float: left;
+  margin-right: 100px;
+}
+
+.order-summary-wrapper > li {
+  padding: 20px 0;
+  width: 100%;
+}
+
+.left-col {
+  display: block;
+  float: left;
+}
+
+.expand-box > .left-col {
+  padding-right: 10px;
+  float: left;
+}
+
+.expand-box > .left-col:last-child {
+  padding-right: 0;
+  float: right;
+}
+
+
+.radio-delivery {
+  display: block;
+}
+
+
+.side-box {
+  display: block;
+  float: left;
+}
+
+.inner-box {
+  display: block;
+  padding: 10px;
+}
+
+.left-text {
+  display: inline;
+  text-align: left;
+}
+
+.right-text {
+  display: inline;
+  text-align: right;
+}
+
+.green-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #008800;
+}
+
+.some-button {
+  display: block;
+  background: rgba(200, 100, 25, 1);
+  border: 1px solid rgba(200, 100, 25, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.some-button:active {
+  border: 1px solid rgba(115, 55, 15, 1);
+  box-shadow: 0 0 10px rgba(115, 55, 15, 1);
+}
+
+.some-button-txt {
+  text-align: center;
+  padding: 5px 10px;
+  font-size: 16px;
+}
